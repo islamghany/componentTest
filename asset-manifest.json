@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/componentTest/static/css/main.25081558.chunk.css",
+    "main.js": "/componentTest/static/js/main.910436fd.chunk.js",
+    "main.js.map": "/componentTest/static/js/main.910436fd.chunk.js.map",
+    "runtime~main.js": "/componentTest/static/js/runtime~main.23a270b0.js",
+    "runtime~main.js.map": "/componentTest/static/js/runtime~main.23a270b0.js.map",
+    "static/css/2.71916e70.chunk.css": "/componentTest/static/css/2.71916e70.chunk.css",
+    "static/js/2.853de166.chunk.js": "/componentTest/static/js/2.853de166.chunk.js",
+    "static/js/2.853de166.chunk.js.map": "/componentTest/static/js/2.853de166.chunk.js.map",
+    "index.html": "/componentTest/index.html",
+    "precache-manifest.e08d488c49f358cb94e6dcc8298a9760.js": "/componentTest/precache-manifest.e08d488c49f358cb94e6dcc8298a9760.js",
+    "service-worker.js": "/componentTest/service-worker.js",
+    "static/css/2.71916e70.chunk.css.map": "/componentTest/static/css/2.71916e70.chunk.css.map",
+    "static/css/main.25081558.chunk.css.map": "/componentTest/static/css/main.25081558.chunk.css.map",
+    "static/media/spinner.gif": "/componentTest/static/media/spinner.45276424.gif"
+  }
+}
