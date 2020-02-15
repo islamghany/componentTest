@@ -1,0 +1,103 @@
+.sidebar{
+	padding:4rem 2rem 0 3rem;
+
+	@include respond(tab-port){
+		display: flex;
+		padding:2rem;
+		justify-content: center;
+		align-items: start;
+		flex-wrap: wrap;
+	}
+	&__user{
+		display: flex;
+		align-items: center;
+		padding: 1.5rem 1rem;
+@include respond(tab-port){
+		
+		padding:0 1rem 0 1rem;
+	}
+		img{
+			width: 6rem;
+			margin-right: 1.3rem;
+			border-radius: 10px;
+			}
+		&--info{
+			color:#f0f0f3;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		&--name{
+			font-weight: 400;
+			font-family: 'Roboto';
+			font-size: 1.5rem;	  
+			letter-spacing: 0.1px; 
+			line-height: 1.8rem;
+		}
+		&--id{
+			font-size: 1.2rem;
+			font-family: 'montserrat'
+		}
+	}
+	&__menu{
+		margin:2rem;
+		margin-top: 4rem;
+		@include respond(tab-port){
+		margin: 0;
+	}
+
+	}
+     &__list{
+     	@include respond(tab-port){
+		display: flex;
+	}
+     }
+	&__item{		
+		margin: 1rem 0;
+		@include respond(tab-port){
+		margin:0 1rem;
+	}
+		&--row{
+		display: flex;
+		font-size:1.6rem;
+		align-items: center;
+		cursor: pointer;
+		color:#9a9a9a;
+		.icon{
+           padding:.8rem 1.2rem;
+           display: inline-block;
+           margin-right: 1.2rem;
+           border-radius: 8px;
+           transition: all .3s;
+		}
+		&:hover{
+        	color: #fff !important;
+          span{
+          	background:#3358f4;
+          	transform: translateY(-10px);
+          	svg{
+          		fill:#fff;
+             } 
+          	}
+		}		
+	    }
+	}
+	&__sub{
+      margin: 0 0 2rem 2rem;
+      li{
+      	font-size: 1.5rem;
+      	margin:1rem;
+      	a{
+      		display: block;
+      	}
+      	color:#9a9a9a;
+      	cursor: pointer;
+        &:hover{
+        	color: #fff !important;
+        }
+      }
+	}
+}
+.link{
+	color: #fff;
+}

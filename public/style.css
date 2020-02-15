@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+#root{
+    margin-top: 0;
+
+}
+.modal-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }

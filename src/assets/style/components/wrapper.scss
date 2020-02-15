@@ -1,0 +1,36 @@
+$argon:#27293D;
+$main2:#1E1E2E;
+$second:#1F8EF1;
+//linear-gradient(0deg,#3358f4,#1d8cf8)
+.wrapper{
+    background:$argon ;
+	min-height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+
+	.sidebar{
+		width:30rem;
+		position: fixed;
+		top:0;
+		left: 0;
+		@include respond(tab-port){
+		width: 100%;
+		position: relative;
+	}
+	}
+	.panel{
+        background: #f0f0f3;
+        width: calc(100% - 32rem);
+        margin: 2rem 2rem 2rem 0;
+        border-radius:25px;
+        padding: 2rem;
+        @include respond(tab-port){
+		width: calc(100% - 4rem);
+		margin:2rem;
+		
+	}
+	}
+@include respond(tab-port){
+		flex-direction: column;
+	}
+}

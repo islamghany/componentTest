@@ -1,0 +1,197 @@
+
+.nav{
+	background: #FDF9F3;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: center;
+	&__wrapper{
+		display: flex;
+		max-width: 100%;
+        width: 1250px;
+        align-items: center;
+        justify-content: space-between;
+        padding: .4rem 2rem;
+        @include respond(350px){	
+			 padding: .4rem .4rem;
+		} 
+	}
+	&__logo{
+		flex:22%;
+		h3{
+			padding: .6rem 1rem;
+			border-radius:4px;
+			background: $dark;
+			color:#fff;
+			display: inline;
+			font-size: 2rem
+		}
+		@include respond(962px){
+			flex: 0 1;
+			margin-right: 2rem;
+		} 
+		@include respond(350px){	
+			 margin-right: .4rem;
+		} 
+	}
+	&__search{
+		flex: 43%;
+		@include respond(737px){
+			flex: 25%;
+			
+		} 
+		@include respond(phone){
+			flex: 50%;
+		} 
+		&--input{
+			width:100%;
+			padding:.8rem .6rem;
+			font-size: 1.6rem;
+			border:1px solid transparent;
+			background: #E8E7E7;
+			border-radius:4px;
+			&:focus{
+				border:1px solid $dark;
+			}
+		}
+	}
+	&__head{
+		flex: 30%;
+		@include respond(962px){	
+			flex: 1 1 1;
+			margin-left: 2rem;
+		} 
+		@include respond(350px){	
+			 margin-left: .4rem;
+		} 
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		svg{
+			margin: 0 1rem;
+			@include respond(500px){	
+			width: 3.4rem !important;
+			height: 3.4rem !important;
+		} 
+			@include respond(350px){	
+			 margin: .4rem;
+		} 
+		@include respond(250px){	
+			 display: none;
+		} 
+		}
+		button{
+			margin: 0 1rem;
+			@include respond(phone){
+			display: none !important;
+		} 
+		}
+		&--image{
+			width: 4rem;
+			border-radius: 2rem;
+			margin: 0 1rem;
+			
+		}
+	}
+}
+
+.dev{
+	background: #F9F9FA;
+	&__wrapper{
+		display: flex;
+	justify-content: center;
+	}
+	.container{
+		max-width: 100%;
+		width: 1250px;
+		margin: 3rem;
+		display: flex;
+		justify-content: space-between;
+
+	}
+.left-sidebar{
+	flex:22%;
+	&__user{
+		padding:1rem;
+	    display: flex;	
+        align-items: center;
+        justify-content: flex-start;
+        background: #fff;
+     border:  1px solid #d6d6d6;
+     box-shadow: 1px 1px 0px #c2c2c2;
+     margin-bottom: 2rem;
+		&--img{
+			width: 5rem;
+			border-radius: 2.5rem;
+		}
+		&--info{
+          padding-left: .4rem;
+          h1{
+          	font-size: 1.6rem;
+          	padding:0;
+          	color:#1a1a1a;
+          	line-height: 1.8rem;
+          }
+          p{
+          	font-size: 1.3rem;
+          	line-height: 1.5rem;
+          	padding:0;
+          	color:#666666;
+          }
+		}
+	}
+	&__navigations{
+	 padding:1rem;
+     background: #fff;
+     border:  1px solid #d6d6d6;
+     box-shadow: 1px 1px 0px #c2c2c2;
+     height:60rem;
+     h3{
+     	font-size:1.5rem;
+     }
+	}	
+}
+.right-sidebar{
+    	flex:22%;
+	   background: #fff;
+	   background: #fff;
+     border:  1px solid #d6d6d6;
+     box-shadow: 1px 1px 0px #c2c2c2;
+     &__header{
+     	background: #f9f9fA;
+     	h1{
+     		padding:1rem;
+     		font-size:1.6rem;
+     		border-bottom: 1px solid #d6d6d6;
+     	}
+     }
+}	
+.articals{
+	flex: 64;
+    margin: 0 4rem;
+    &__item{
+    	height:40rem;
+    	border:  1px solid #d6d6d6;
+    	background:#fff;
+    	display: flex;
+    	flex-direction: column;
+    	border-radius: 3px; 
+    	&--header{
+            flex:55%;
+            background-size: cover;
+            background-position: center;
+                background-color: #dddddd;
+    		background-image: url('https://picjumbo.com/wp-content/uploads/cow-in-mountains-2210x1473.jpg')
+    	}
+    	&--body{
+    		flex:45%;
+    	}
+    }
+}
+}
+.nmn{
+	svg{
+		width: 200px;
+		height: 200px;
+		fill: red;
+	}
+}
